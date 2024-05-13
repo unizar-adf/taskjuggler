@@ -114,7 +114,7 @@ task WMGame "Web & Mobile Game" {
       depends WMGame.cloudSupport.tCloudDecision
     }
   }
-
+ 
   task mobileFrontend "Web Front End" {
     responsible alvaroodfr
     depends WMGame.tback.tBEd
